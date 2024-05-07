@@ -1,8 +1,8 @@
 .big-card-container{
   margin-left: 10px;
   margin-right: 10px;
-  width: 550px;
-  height: 650px;
+  width: 500px;
+  height: 600px;
 
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
 
 .big-card-image > img {
   width: 100%;
-  min-width: 550px;
+  min-width: 500px;
 }
 
 .big-card-title > span {
