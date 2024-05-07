@@ -6,7 +6,7 @@
   </div>
   <div class="big-card-title">
     <span>{{newsCategorie}}</span>
-    <h1><a href="">{{cardTitle}}</a></h1>
+    <h1><a [routerLink]="['content', Id]" routerLinkActive="router-link-active" >{{cardTitle}}</a></h1>
   </div>
   <div class="big-card-description">
     <p>
