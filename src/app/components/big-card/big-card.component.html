@@ -1,19 +1,17 @@
 <div class="big-card-container">
   <div class="big-card-image">
     <img
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAMFBMVEXJycmamprMzMzFxcWdnZ2goKCjo6PCwsLHx8e7u7unp6e4uLiwsLCtra3AwMC1tbWpnO67AAABOUlEQVR4nO3Yy46DIBiA0YJ4qb3M+7/tiLbpjMByopOcs2hI3JAv+NdwuQAAAAAAAAAAAAAAAAAAAAAAAAAAAPAPxaajd3Y+49w3DNej93Y2cQgtKUxH7+5sUhq7qmkI49GbO5s+7c7Pe1hFsQr7WN38mlVilfax5mVWrQuxSrtYcUivwS5WaX+yrinc16ElVqkY8JfJgG/5xBpvvx6IVfrE6sPz5wOxSu9YcfkbTF1ejTczq+EVK96XVqnPyyGszcQqvWJdc6sU5hgfIQ35aIlV2mJ1aRPuudr68SBWaYs1hHet7fcpVk2OlV+9HbFqlljxq7zMmsWqyCerdp0lVkW/vHG1e3ixKvo0NK7g0/a9xceteQcfHkfv7Xymxh1851wBAAAAAAAAAAAAAAAAAAAAAAAAAMAf+wbOkwdCSXzOnAAAAABJRU5ErkJggg=="
+      src="{{ imageCover }}"
       alt="" height="300px">
   </div>
   <div class="big-card-title">
-    <span>Front-end</span>
-    <h1><a href="">Curso de Angular</a></h1>
+    <span>{{newsCategorie}}</span>
+    <h1><a href="">{{cardTitle}}</a></h1>
   </div>
   <div class="big-card-description">
     <p>
       <a href="#">
-        Angular, um framework robusto desenvolvido pelo Google, oferece uma arquitetura modular e ferramentas
-        poderosas
-        para simplificar o desenvolvimento de aplicativos web e móveis.
+        {{cardDescription}}
       </a>
     </p>
   </div>
