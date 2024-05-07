@@ -1,3 +1,10 @@
+header {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .articles-container{
   margin-top: 15px;
   display: flex;
