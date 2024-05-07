@@ -1,0 +1,36 @@
+.small-card-container{
+  width: 50vw;
+  margin-bottom: 10px;
+}
+
+.small-card-content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-image > img {
+  width: 20vw;
+  height: 30vh;
+  margin-right: 20px;
+}
+
+.small-card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.small-card-title > span {
+  margin-top: 10px;
+  color: grey;
+}
+
+.small-card-title > h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.small-card-separator-container {
+  margin-top: 5px;
+}
